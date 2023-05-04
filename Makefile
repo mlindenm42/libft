@@ -6,7 +6,7 @@
 #    By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/10 16:33:29 by mlindenm          #+#    #+#              #
-#    Updated: 2023/05/04 15:49:41 by mlindenm         ###   ########.fr        #
+#    Updated: 2023/05/04 15:59:09 by mlindenm         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,3 +44,4 @@ fclean: clean
 re: fclean all
 
 .PHONY: bonus all clean fclean re
+
