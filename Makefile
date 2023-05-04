@@ -6,7 +6,7 @@
 #    By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/10 16:33:29 by mlindenm          #+#    #+#              #
-#    Updated: 2023/05/04 15:59:09 by mlindenm         ###   ########.fr        #
+#    Updated: 2023/05/04 16:07:25 by mlindenm         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,12 +26,6 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	ar -rcs $(NAME) $(OBJ)
 
-$(OBJ): $(SRC)
-	$(CC) $(CFLAGS) -c $(SRC)
-
-$(BOBJ): $(BSRC)
-	$(CC) $(CFLAGS) -c $(BSRC)
-
 bonus: $(NAME) $(BOBJ)
 	ar -rcs $(NAME) $(BOBJ)
 
@@ -44,4 +38,3 @@ fclean: clean
 re: fclean all
 
 .PHONY: bonus all clean fclean re
-
