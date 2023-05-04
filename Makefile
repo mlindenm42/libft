@@ -6,7 +6,7 @@
 #    By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/10 16:33:29 by mlindenm          #+#    #+#              #
-#    Updated: 2023/05/04 16:49:04 by mlindenm         ###   ########.fr        #
+#    Updated: 2023/05/04 18:44:09 by mlindenm         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,7 @@ $(NAME): $(OBJ)
 	ar -rcs $(NAME) $(OBJ)
 
 obj/%.o: %.c | obj
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) -c $*.c -o obj/$*.o
 
 obj:
 	mkdir -p obj
