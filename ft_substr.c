@@ -6,7 +6,7 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 17:39:28 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/09 13:02:51 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/05 22:10:43 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		len = 0;
 	if (ft_strlen(s) < len)
 		len = ft_strlen(s);
+	if (ft_strlen(s) - start < len)
+		len = ft_strlen(s) - start;
 	ptr = (char *)malloc((len + 1) * sizeof(char));
 	if (ptr == NULL)
 		return (NULL);
