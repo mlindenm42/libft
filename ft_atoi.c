@@ -6,7 +6,7 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 10:32:06 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/10 04:26:17 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/05 21:22:41 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@ int	ft_atoi(const char *str)
 	i = 0;
 	sign = 1;
 	res = 0;
+	if (str[i] == '\007' || str[i] == '\010')
+		return (0);
 	while ((str[i] >= 7 && str[i] <= 13) || str[i] == ' ')
 		i++;
 	if (str[i] == '+' || str[i] == '-')
