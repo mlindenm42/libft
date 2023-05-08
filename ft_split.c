@@ -6,7 +6,7 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/03 14:45:39 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/19 20:49:06 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/08 15:47:17 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,14 @@ static int	stringmaker(char **ptrptr, char const *s, char c)
 	{
 		*(ptrptr + i) = (char *) malloc((charcounter(s, c) + 1) * sizeof(char));
 		if (*(ptrptr + i) == NULL)
+		{
+			while (--i >= 0)
+			{
+				free(*(ptrptr + i));
+				*(ptrptr + i) = NULL;
+			}
 			return (0);
+		}
 		while (*s == c && *s)
 			s++;
 		ft_strlcpy(*(ptrptr + i), s, charcounter(s, c) + 1);
@@ -77,12 +84,8 @@ char	**ft_split(char const *s, char c)
 		*(ptrptr) = NULL;
 	else if (!(stringmaker(ptrptr, s, c)))
 	{
-		while (*ptrptr)
-		{
-			free (*ptrptr);
-			ptrptr++;
-		}
 		free (ptrptr);
+		ptrptr = NULL;
 		return (NULL);
 	}
 	return (ptrptr);
