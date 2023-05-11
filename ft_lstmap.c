@@ -6,7 +6,7 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/19 15:19:01 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/19 20:54:19 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/11 09:51:13 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,11 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 		if (new == NULL)
 		{
 			ft_lstclear(&ptr, del);
+			ptr = NULL;
 			return (NULL);
 		}
 		ft_lstadd_back(&ptr, new);
+		new = NULL;
 		lst = lst->next;
 	}
 	return (ptr);
