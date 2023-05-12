@@ -6,9 +6,11 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/21 17:33:27 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/09 15:33:21 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/12 16:59:19 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Outputs the integer ’n’ to the given file descriptor.*/
 
 #include "libft.h"
 

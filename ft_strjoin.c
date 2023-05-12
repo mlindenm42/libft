@@ -6,9 +6,12 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 22:54:00 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/10 05:03:01 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/12 17:03:11 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Allocates (with malloc(3)) and returns a new string, which is the result of
+the concatenation of ’s1’ and ’s2’.*/
 
 #include "libft.h"
 

@@ -6,9 +6,12 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 17:39:28 by mlindenm          #+#    #+#             */
-/*   Updated: 2023/05/05 22:10:43 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/12 17:04:02 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Allocates (with malloc(3)) and returns a substring from the string ’s’.
+The substring begins at index ’start’ and is of maximum size ’len’.*/
 
 #include "libft.h"
 

@@ -6,9 +6,13 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/21 16:44:07 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/19 20:32:48 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/12 17:01:00 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Applies the function ’f’ on each character of the string passed as argument,
+passing its index as first argument. Each character is passed by address to ’f’
+to be modified if necessary.*/
 
 #include "libft.h"
 

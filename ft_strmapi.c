@@ -6,9 +6,13 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/20 12:26:16 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/09 17:46:07 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/12 17:01:52 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Applies the function ’f’ to each character of the string ’s’, and passing its
+index as first argument to create a new string (with malloc(3)) resulting from
+successive applications of ’f’.*/
 
 #include "libft.h"
 

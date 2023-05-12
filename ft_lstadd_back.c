@@ -6,9 +6,11 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/18 17:20:29 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/19 20:26:53 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/12 16:55:12 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Adds the node ’new’ at the end of the list.*/
 
 #include "libft.h"
 

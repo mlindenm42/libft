@@ -6,9 +6,12 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/12 10:23:35 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/09 17:44:38 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/12 17:02:07 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Allocates (with malloc(3)) and returns a string representing the integer
+received as an argument. Negative numbers must be handled.*/
 
 #include "libft.h"
 

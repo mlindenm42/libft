@@ -6,9 +6,14 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/19 15:19:01 by mlindenm          #+#    #+#             */
-/*   Updated: 2023/05/11 09:51:13 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/12 16:58:35 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Iterates the list ’lst’ and applies the function ’f’ on the content of each
+node. Creates a new list resulting of the successive applications of the
+function ’f’. The ’del’ function is used to delete the content of a node if
+needed.*/
 
 #include "libft.h"
 

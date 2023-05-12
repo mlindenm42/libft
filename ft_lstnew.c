@@ -6,9 +6,13 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/17 15:12:35 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/19 20:28:16 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/12 16:54:48 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Allocates (with malloc(3)) and returns a new node. The member variable
+’content’ is initialized with the value of the parameter ’content’. The variable
+’next’ is initialized to NULL.*/
 
 #include "libft.h"
 

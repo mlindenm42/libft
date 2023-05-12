@@ -6,9 +6,12 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/08 09:00:04 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/09 12:24:09 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/12 17:02:57 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Allocates (with malloc(3)) and returns a copy of ’s1’ with the characters
+specified in ’set’ removed from the beginning and the end of the string.*/
 
 #include "libft.h"
 

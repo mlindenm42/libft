@@ -6,9 +6,11 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/21 17:21:32 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/04/21 17:26:42 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/12 17:00:08 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Outputs the string ’s’ to the given file descriptor.*/
 
 #include "libft.h"
 

@@ -6,9 +6,13 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/03 14:45:39 by mlindenm          #+#    #+#             */
-/*   Updated: 2023/05/08 15:47:17 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/05/12 17:02:37 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*Allocates (with malloc(3)) and returns an array of strings obtained by
+splitting ’s’ using the character ’c’ as a delimiter. The array must end with a
+NULL pointer.*/
 
 #include "libft.h"
 
