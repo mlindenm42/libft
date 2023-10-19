@@ -6,11 +6,14 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 11:26:59 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/10 04:06:27 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/10/19 17:38:37 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*This function sets the first 'n' bytes of the memory pointed to by 's' to
+zero (i.e., it clears a block of memory).*/
 
 void	*ft_bzero(void *s, size_t n)
 {

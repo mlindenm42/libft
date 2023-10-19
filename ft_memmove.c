@@ -6,11 +6,14 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/24 18:12:57 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/10 04:10:04 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/10/19 17:41:38 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*This C function ft_memmove copies n bytes of data from the source src to the
+destination dest, handling overlapping memory regions correctly.*/
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {

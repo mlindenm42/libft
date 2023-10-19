@@ -6,9 +6,13 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 09:40:22 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/04/12 16:44:52 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/10/19 17:39:04 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*This C function, ft_isprint, checks if the input character (c) represents a
+printable ASCII character (with decimal values between 32 and 126) and returns
+1 if true, 0 if false.*/
 
 int	ft_isprint(int c)
 {

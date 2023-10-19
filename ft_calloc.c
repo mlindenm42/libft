@@ -6,11 +6,14 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 16:05:59 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/10 05:05:58 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/10/19 17:38:39 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*This function allocates a block of memory for an array and initializes it to
+zero, ensuring no overflow in the allocation.*/
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {

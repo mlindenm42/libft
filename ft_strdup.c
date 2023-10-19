@@ -6,11 +6,14 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 17:06:06 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/09 17:45:27 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/10/19 17:43:12 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*This function duplicates a given C string and returns a pointer to the newly
+allocated memory containing the duplicated string.*/
 
 char	*ft_strdup(const char *str)
 {

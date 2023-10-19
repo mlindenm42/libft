@@ -6,11 +6,15 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/01 14:09:00 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/10 04:10:59 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/10/19 17:40:52 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*This function searches for the first occurrence of a specific byte (c) within
+a memory block (s) of a given size (n) and returns a pointer to that location,
+or NULL if not found.*/
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

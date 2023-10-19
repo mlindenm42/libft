@@ -6,11 +6,14 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 11:06:06 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/09 13:20:32 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/10/19 17:41:51 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
+
+/*This function sets the first n bytes of memory starting at the address s to
+the value c.*/
 
 void	*ft_memset(void *s, int c, size_t n)
 {

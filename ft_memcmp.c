@@ -6,11 +6,14 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/01 15:22:59 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/05/10 04:11:11 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/10/19 17:41:11 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*This function, ft_memcmp, compares the first n bytes of two memory blocks (s1
+and s2) and returns an integer indicating their relative ordering.*/
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

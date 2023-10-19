@@ -6,11 +6,15 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 19:00:11 by mlindenm          #+#    #+#             */
-/*   Updated: 2022/04/13 18:57:06 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/10/19 17:44:11 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*This function appends a string (src) to another string (dst) while ensuring
+the combined result does not exceed a specified length (n) and returns the
+final length of the concatenated string.*/
 
 size_t	ft_strlcat(char *dst, const char *src, size_t n)
 {

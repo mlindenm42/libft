@@ -6,11 +6,14 @@
 /*   By: mlindenm <mlindenm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 10:32:06 by mlindenm          #+#    #+#             */
-/*   Updated: 2023/05/16 23:37:37 by mlindenm         ###   ########.fr       */
+/*   Updated: 2023/10/19 17:38:33 by mlindenm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*This function converts a string of characters to an integer, handling various
+cases, and returns the resulting integer value.*/
 
 int	ft_atoi(const char *str)
 {
